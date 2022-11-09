@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles.css">
+        <!-- link de tipografia -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Registro</title>
+</head>
+<body>
+    <!-- encabezado -->
+    <header>
+        <a href="../index.html"><img class="logo" src="../img/logo-web.png" alt="logo viandas diarias"></a>
+        <nav>
+            <ul>
+                <section class="ubicacion">
+                    <li><img src="../img/logo-mapa.png" alt="ubicacion"> Ubicación</li>
+                </section>
+                <li><a href="../pages/Registro.html"><img src="../img/login.png" alt="registrarse"> Registrarse</a></li>
+                <li><a href="../pages/compra.html"><img src="../img/logo-compras.png" alt="compras"> Compras</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--contenido principal-->
+    <main>
+        <!--barra buscar-->
+        <section class="buscar">
+            <div>
+                <img src="../img/logo-lupa.png" alt="lupa">
+                <input type="text" placeholder="Buscar...">
+            </div>
+        </section>
+        <section class="filtros">
+            <span> 
+                <ul>
+                    <li>Retiro en el local</li>
+                    <li>Envío</li> 
+                </ul>
+            </span> 
+        </section> 
+        <div class="viandas">
+            <h1><a href="../pages/viandasdia.html"><img src="../img/logo-sol.png" alt="viandas-dia"> viandas del día</h1></a>
+            <h1><a href="../pages/viandasdia.html"><img src="../img/logo-congelado.png" alt="congelados"> Viandas Congeladas</h1></a>
+        </div>
+    </main>
+    <footer>
+        <div class="contenedor-compra">
+            <div>
+                <h2>Compra</h2>
+                <h2>Total:</h2>
+            </div>
+            <div>
+                <input type="submit" value="Efectivo en Domicilio">
+                <input type="text" placeholder="¿Con cuando abonas?">
+            </div>
+            <div><input type="submit" value="Tarjeta"></div>
+            <input type="text" placeholder="Numero de la tarjeta">
+            <input type="text" placeholder="Fecha de Vencimiento">
+            <div>
+                <input type="text" placeholder="Nombre del Titular">
+                <input type="text" placeholder="Codigo">
+            </div>
+            <div>
+                <input type="submit" value="Aceptar" >
+                <input type="reset" value="Cancelar">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

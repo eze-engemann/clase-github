@@ -1,0 +1,170 @@
+/* reset */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(255, 153, 0, 0.6);
+}
+
+
+/*logo header*/
+
+.logo{
+    padding: 10px;
+    margin: 5px;
+    width: 188px;
+    height: 184px;
+    left: 60px;
+    top: 7px;
+}
+ /*menu de navegacion*/
+header nav ul {
+    text-decoration: transparent;
+    list-style: none;
+    text-align: end;
+    font-family: 'Poppins';
+}
+
+.ubicacion{
+    text-align: center;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+/*barra de busqueda y filtros*/
+main{
+    padding: 20px;
+}
+
+.buscar {
+    text-align: center;
+   
+}
+div input{
+    background-color: rgba(255, 153, 0, 0.6);
+    width: 817px;
+    left: 453px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 20px;
+    line-height: 29px;
+    border-radius: 22px;
+}
+
+span ul li{
+    list-style: none;
+    background-color: rgba(255, 153, 0, 0.6);
+    display: inline-block;
+    font-family: 'lato';
+    border-radius: 22px;
+}
+
+.filtros{
+    margin-left: 550px;
+}
+
+/*Viandas del dia y congeladas*/
+h1{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 400px;
+    display: inline-block;
+    font-family: 'poppins';
+}
+
+h1 a{
+    text-decoration: transparent;
+    color: black;
+}
+
+/*imagen pie de pagina*/
+body footer{
+    background-image: url("../img/fondo-footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 681px;
+}
+
+/* estilos para el html registro */
+
+.viandas{
+    margin-right: 210px;
+    margin-left: 80px;
+}
+
+h2{
+    
+    color: black;
+    font-family: 'poppins';
+}
+.contenedor-registro{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+}
+
+footer input{
+    width: 318px;
+    border-radius: 10px;
+}
+
+.contenedor-compra{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+}
+
+/* estilos para viandasdia */
+
+nav ul {
+    list-style: none;
+    font-family: 'Poppins';
+}
+
+.centro-viandas{
+    width: 948px;
+    height: 125px;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgba(232, 26, 70, 0.1);
+}
+.local{
+   text-align: center;
+   background: rgba(232, 26, 70, 0.1);
+}
+
+.ratio{
+    text-align: end;
+    background: rgba(232, 26, 70, 0.1);
+}
+.entregas{
+    text-align: end;
+}
+
+h3{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'poppins';
+    font-size: 24px;
+}
+
+.descripcion-menu{
+    text-align: center;
+}
+
